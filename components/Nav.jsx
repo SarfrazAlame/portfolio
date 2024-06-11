@@ -17,7 +17,7 @@ const Nav = ({ containerStyles, linkStyles, underlineStyles }) => {
             {
                 links.map((link, index) => {
                     return (
-                        <Link href={link.path} key={index} className={`capitalize ${linkStyles}`}>
+                        <Link href={link.path} key={index} className={`capitalize ${linkStyles} text-sm`} >
                             {
                                 link.path === path && (
                                     <motion.span initial={{ y: '-100%' }}
