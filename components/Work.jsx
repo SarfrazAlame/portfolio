@@ -58,7 +58,7 @@ const Work = () => {
                         pagination={{ clickable: true }}
                     >
                         {
-                            projectData.slice(0, 4).map((project, index) => {
+                            projectData.map((project, index) => {
                                 return <SwiperSlide>
                                     <ProjectCard project={project} />
                                 </SwiperSlide>
