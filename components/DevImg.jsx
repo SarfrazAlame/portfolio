@@ -4,7 +4,7 @@ import React from 'react'
 const DevImg = ({ containerStyles, imgSrc }) => {
   return (
     <div className={`${containerStyles}`}>
-      <Image src={imgSrc} fill priority alt='' />
+      <Image src={imgSrc}  alt='' width={300} height={200} className='rounded-full'/>
     </div>
   )
 }
