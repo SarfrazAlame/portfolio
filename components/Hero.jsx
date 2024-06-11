@@ -2,11 +2,10 @@ import Link from 'next/link'
 import React from 'react'
 import { RiArrowDownSLine, RiBriefcase4Fill } from "react-icons/ri"
 import { Button } from './ui/button'
-import { cn } from '@/lib/utils'
 import { Download } from 'lucide-react'
 import Social from './Social'
 import DevImg from './DevImg'
-import Badge from './Badge'
+
 
 const Hero = () => {
     return (
