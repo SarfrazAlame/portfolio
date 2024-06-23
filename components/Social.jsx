@@ -1,26 +1,26 @@
 import Link from 'next/link'
 import React from 'react'
-import { RiFacebookFill, RiGithubFill, RiInstagramFill, RiInstallFill, RiLinkedinFill, RiYoutubeFill } from 'react-icons/ri'
+import { RiFacebookFill, RiGithubFill, RiInstagramFill, RiInstallFill, RiLinkedinFill, RiTwitchFill, RiTwitterFill, RiYoutubeFill } from 'react-icons/ri'
 
 const icons = [
   {
-    path: '/',
-    name: <RiYoutubeFill />
+    path: 'https://x.com/sarfrazk7858',
+    name: <RiTwitterFill />
   },
   {
-    path: '/',
+    path: 'https://www.linkedin.com/in/sarfraz-alam-25a262236/',
     name: <RiLinkedinFill />
   },
   {
-    path: '/',
+    path: 'https://github.com/SarfrazAlame',
     name: <RiGithubFill />
   },
   {
-    path: '/',
+    path: 'https://www.facebook.com/profile.php?id=100055752636949',
     name: <RiFacebookFill />
   },
   {
-    path: '/',
+    path: 'https://www.instagram.com/sarfrazalam532/',
     name: <RiInstagramFill />
   },
 ]
